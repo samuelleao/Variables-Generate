@@ -1,0 +1,53 @@
+.color-input-group {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.color-input-group input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  min-width: 1.25rem;
+  min-height: 1.5rem;
+  width: 1.25rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media(max-width: 900px) {
+    .color-input-group {
+        width: 100%;
+      }
+}
+
+.color-input-group input::-webkit-color-swatch {
+  border-radius: 50%;
+  border: none;
+}
+.color-input-group input::-moz-color-swatch {
+  border-radius: 50%;
+  border: none;
+}
+
+.input-group {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+}
+
+.input-group input {
+  flex: 1;
+  height: 2.75rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  border: 0.063rem solid var(--color-grey-400);
+}
+
+input:focus-visible {
+  outline-color: var(--color-brand-100);
+}

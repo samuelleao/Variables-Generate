@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --color-brand-100: #5f3dc4;
+  --color-brand-200: #7950f2;
+  --color-brand-300: #ece8f8;
+  --color-grey-100: #212529;
+  --color-grey-200: #495057;
+  --color-grey-300: #adb5bd;
+  --color-grey-400: #e1e7ea;
+  --color-grey-500: #f4f6f7;
+  --color-grey-600: #f1f3f5;
+  --color-grey-700: #ffffff;
+  --font-size-1: 1rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 0.75rem;
+}

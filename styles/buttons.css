@@ -1,0 +1,43 @@
+.bt {
+  appearance: none;
+  background-color: var(--color-brand-100);
+  border: 0.063rem solid var(--color-brand-100);
+  border-radius: 0.5rem;
+  font-size: var(--font-size-2);
+  font-weight: 600;
+  color: var(--color-grey-700);
+  padding: 0 1rem;
+  height: 2.375rem;
+  cursor: pointer;
+}
+.bt:hover {
+  background-color: var(--color-brand-200);
+  border-color: var(--color-brand-200);
+}
+.bt.bt-outline {
+  background-color: transparent;
+  color: var(--color-brand-100);
+  border-color: var(--color-brand-100);
+}
+.bt.bt-outline:hover {
+  background-color: var(--color-brand-300);
+}
+.bt.bt-icon {
+  background-color: var(--color-grey-500);
+  color: var(--color-grey-300);
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+.bt.bt-icon:hover {
+  background-color: var(--color-grey-400);
+  color: var(--color-grey-200);
+}
+.bt:focus-visible {
+  outline-color: var(--color-brand-100);
+}

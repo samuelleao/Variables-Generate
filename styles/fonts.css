@@ -1,0 +1,24 @@
+[class*="font-"] {
+  line-height: 150%;
+}
+.font-1 {
+  font-size: var(--font-size-1);
+}
+.font-2 {
+  font-size: var(--font-size-2);
+}
+.font-3 {
+  font-size: var(--font-size-3);
+}
+.medium {
+  font-weight: 500;
+}
+.regular {
+  font-weight: 400;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
