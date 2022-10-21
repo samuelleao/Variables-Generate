@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .bt.bt-icon:hover {
   background-color: var(--color-grey-400);

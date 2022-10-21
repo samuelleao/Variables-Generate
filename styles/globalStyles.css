@@ -23,3 +23,7 @@
   --font-size-2: 0.875rem;
   --font-size-3: 0.75rem;
 }
+
+fieldset {
+  border: none;
+}

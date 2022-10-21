@@ -28,6 +28,7 @@ body {
 .title-header {
   background-color: var(--color-grey-600);
   padding: 0.75rem 1.75rem;
+  width: 100%;
 }
 
 .color-pallete {
@@ -53,4 +54,10 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+}
+
+@media(max-width: 900px){
+  .action-buttons .bt{
+    width: 50%;
+  }
 }
